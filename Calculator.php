@@ -17,7 +17,7 @@ class Calculator
         return $a / $b;
     }
 
-    public function esPar($a): boolean
+    public function esPar($a): bool
     {
         return ($a % 2) == 0;
     }
